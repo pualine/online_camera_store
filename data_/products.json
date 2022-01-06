@@ -1,0 +1,206 @@
+{
+    "products": [{
+            "id": 6,
+            "title": "Sony a7C with 28-60mm f4-5.6 and Accessory Bundle",
+            "image": "./images_/products/Products139.jpg",
+            "price": "2,699.00",
+            "category": "Featured Products"
+        },
+
+        {
+            "id": 3,
+            "title": "Hasselblad X1D II 50c with Accessory Kit",
+            "image": "./images_/products/Hasselblad.jpg",
+            "price": "8,082.74",
+            "category": "Special Deals"
+        },
+        {
+            "id": 4,
+            "title": "Nikon Coolpix A1000",
+            "image": "./images_/products/camm3.jpg",
+            "price": "499.00",
+            "category": "Special Deals"
+        },
+        {
+            "id": 8,
+            "title": "FUJIFILM X100V",
+            "image": "./images_/products/camm1.jpg",
+            "price": "1,774.99",
+            "category": "Featured Products"
+        },
+        {
+            "id": 5,
+            "title": "Nikon SB-700 Speedlight",
+            "image": "./images_/products/camm5.jpg",
+            "price": "367.46",
+            "category": "Special Deals"
+        },
+
+        {
+            "id": 7,
+            "title": "Sony WH-CH510",
+            "image": "./images_/products/camm66.jpg",
+            "price": "499.00",
+            "category": "Featured Products"
+        },
+
+
+        {
+            "id": 10,
+            "title": "Pentax K-1 Mark II Body",
+            "image": "./images_/products/camm2.jpg",
+            "price": "999.00",
+            "category": "Special Deals"
+        },
+        {
+            "id": 29,
+            "title": "Pentax K-1 Mark II Body",
+            "image": "./images_/products/Sony_A7C.jpg",
+            "price": "2,249.99",
+            "category": "Featured Products"
+        },
+        {
+            "id": 11,
+            "title": "FUJIFILM X100V",
+            "image": "./images_/products/cam17.jpg",
+            "price": "1,774.99",
+            "category": "Special Deals"
+        },
+        {
+            "id": 13,
+            "title": "Nikon SB-700 Speedlight",
+            "image": "./images_/products/lens/lens1.png",
+            "price": "3,945.39",
+            "category": "Trending This Week"
+        },
+        {
+            "id": 27,
+            "title": "Sony a7C with 28-60mm f4-5.6 and Accessory Bundle",
+            "image": "./images_/products/cam19.jpg",
+            "price": "2,249.99",
+            "category": "Featured Products"
+        },
+        {
+            "id": 12,
+            "title": "Hasselblad X1D II 50c with Accessory Kit",
+            "image": "./images_/products/cam24.jpg",
+            "price": "2,699.00",
+            "category": "Special Deals"
+        },
+
+        {
+            "id": 14,
+            "title": "FUJIFILM X100V",
+            "image": "./images_/products/cam21.png",
+            "price": "8,082.74",
+            "category": "Trending This Week"
+        },
+        {
+            "id": 9,
+            "title": "FUJIFILM X100V",
+            "image": "./images_/products/camm2.jpg",
+            "price": "3,945.39",
+            "category": "Special Deals"
+        },
+        {
+            "id": 15,
+            "title": "Sony WH-CH510",
+            "image": "./images_/products/lens/lens3.png",
+            "price": "999.00",
+            "category": "Trending This Week"
+        },
+        {
+            "id": 16,
+            "title": "Sony a7C with 28-60mm f4-5.6",
+            "image": "./images_/products/cam1.png",
+            "price": "1,466.06",
+            "category": "Special Deals"
+        },
+        {
+            "id": 17,
+            "title": "Nikon SB-700 Speedlight",
+            "image": "./images_/products/camm1.jpg",
+            "price": "2,699.00",
+            "category": "Trending This Week"
+        },
+        {
+            "id": 2,
+            "title": "Nikon SB-700 Speedlight",
+            "image": "./images_/products/camm4.jpg",
+            "price": "499.00",
+            "category": "Special Deals"
+        },
+        {
+            "id": 18,
+            "title": "Sony WH-CH5EW10",
+            "image": "./images_/products/lens/lens2.png",
+            "price": "8,082.74",
+            "category": "Trending This Week"
+        },
+        {
+            "id": 20,
+            "title": "FUJIFILM X100V",
+            "image": "./images_/products/camm5.jpg",
+            "price": "3,930.00",
+            "category": "Special Deals"
+        },
+        {
+            "id": 19,
+            "title": "Sony WH-CH510",
+            "image": "./images_/products/cam17.jpg",
+            "price": "999.00",
+            "category": "Trending This Week"
+        },
+        {
+            "id": 1,
+            "title": "Sony WH-CH5WQE10",
+            "image": "./images_/products/camm5.jpg",
+            "price": "499.00",
+            "category": "Special Deals"
+        },
+        {
+            "id": 24,
+            "title": "Sony a7C with 28-60mm f4-5.6",
+            "image": "./images_/products/camm2.jpg",
+            "price": "3,930.00",
+            "category": "Featured Products"
+        },
+        {
+            "id": 21,
+            "title": "Sony WH-CH51TT0",
+            "image": "./images_/products/cam19.jpg",
+            "price": "6,090.00",
+            "category": "Trending This Week"
+        },
+
+        {
+            "id": 25,
+            "title": "FUJIFILM X100VKJL",
+            "image": "./images_/products/cam17.jpg",
+            "price": "5,100.03",
+            "category": "Special Deals"
+        },
+        {
+            "id": 22,
+            "title": "FUJIFILM X100VGJGD",
+            "image": "./images_/products/cam3.png",
+            "price": "367.46",
+            "category": "Trending This Week"
+        },
+        {
+            "id": 28,
+            "title": "Sony X7 WH-CH510",
+            "image": "./images_/products/cam17.jpg",
+            "price": "8,082.74",
+            "category": "Featured Products"
+        },
+        {
+            "id": 23,
+            "title": "Sony WH-CH5R3T10",
+            "image": "./images_/products/camm3.jpg",
+            "price":"3,945.39",
+            "category": "Featured Products"
+        }
+
+    ]
+}

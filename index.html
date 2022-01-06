@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font---------- -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;600;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon-------- -->
+    <link rel="shortcut icon" href="./images_/favicon.ico" type="image/x-icon">
+
+    <!-- Glidejs Carousel --------->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <!-- Animate on Scroll css ------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="main_css/style.css">
+    <title>Shop Easy</title>
+  </head>
+  <body>
+    <!------------------
+    =====================
+    HEADER
+    ====================
+   -->
+   <header id="header">
+     <!-- main navigation -->
+     <div class="main__header">
+      <div class="navigation">
+        <div class="container">
+          <nav class="nav">
+            <div class="humburger-icon">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+             </div>
+             <!-- Nav Logo -->
+             <div class="nav-logo">
+               <a href="/" class="scroll-link">CAMSH<span>O</span>P</a>
+             </div>
+             <!-- End of Nav Logo -->
+             <!-- Navigation  Menu Lists ----------------->
+             <div class="menu-Nav">
+               <!-- ul  ----------------->
+               <ul class="navigation-list">
+                 <li class="menu-lists">
+                   <a href="#home" class="nav-link scroll-link" id="home">Home</a>
+                 </li>
+                 <li class="menu-lists">
+                   <a href="#category" class="nav-link scroll-link">Category</a>
+                 </li>
+                 <li class="menu-lists">
+                   <a href="#news" class="nav-link scroll-link">Our Blog</a>
+                 </li>
+                 <li class="menu-lists">
+                   <a href="#contact" class="nav-link scroll-link">Contact Us</a>
+                 </li>
+               </ul>
+               <!-- end of ul -->
+             </div>
+             <!-- search icon, user icon and shopping cart icon -->
+             <div class="nav-icons">
+               <a href="#" class="icon-items">
+                 <svg>
+                   <use xlink:href="./images_/sprite.svg#icon-search"></use>
+                 </svg>
+               </a>
+               <a href="#" class="icon-items">
+                 <svg>
+                   <use xlink:href="./images_/sprite.svg#icon-shopping-basket"></use>
+                 </svg>
+                 <span id="cart-toal-number">0</span>
+               </a>
+               <a href="#" class="icon-items">
+                 <svg>
+                   <use xlink:href="./images_/sprite.svg#icon-user"></use>
+                 </svg>
+               </a>
+             </div>
+           </nav>
+         </div>
+       </div>
+     </div>
+      <!-- Hero Area- Using Glidejs 'Structure'---------------- -->
+      <div class="main-banner">
+        <div class="main-banner-text">
+          <h1>Get Your Classy <span>Quality HD</span></h1>
+          <p>Camera at a cool price</p>
+        </div>
+      </div>
+      <!-- Teaser Session -->
+      <section class="wrapper">
+        <div class="container">
+          <h1>Trending This Week</h1>
+        <div id="offers">
+          <div class="teaser__products">
+            <div class="sides">
+              <h2>Hasselblad X1D II 50c with Accessory Kit</h2>
+              <div class="tex">
+                <p>
+                  Gem lettuce, avocado, radish, lime viniatte, eggs, onions, burnt
+                  tomatoes. Your faverite delicious dish always served hot and
+                  spiecy
+                </p>
+                <button type="button">ADD TO CART</button>
+              </div>
+              <img src="images_/teaser21.png" width="250" height="250" alt="Fries" />
+            </div>
+            <div class="sides">
+              <h2>Sony a7C with 28-60mm f4-5.6</h2>
+              <div class="tex">
+                <p>
+                  Gem lettuce, avocado, radish, lime viniatte, eggs, onions, burnt
+                  tomatoes. Your faverite delicious dish always served hot and
+                  spiecy
+                </p>
+                <button type="button">ADD TO CART</button>
+              </div>
+              <img
+                src="images_/Teaser.png"
+                width="250"
+                height="250"
+                alt="Grilld Tilapia"
+              />
+            </div>
+            <div class="sides">
+              <h2>FUJIFILM X100V</h2>
+              <div class="tex">
+                <p>
+                  Gem lettuce, avocado, radish, lime viniatte, eggs, onions, burnt
+                  tomatoes. Your faverite delicious dish always served hot and
+                  spiecy
+                  <button type="button">ADD TO CART</button>
+                </p>
+              </div>
+              <img src="images_/Teaser3.png" width="250" height="250" alt="Waakye" />
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- first Hero session -->
+      <div class="first-hero">
+        <div class="glide" id="glide_1">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="center-hero">
+                  <div class="left-hero">
+                    <div class="left-hero-div">
+                      <span>New Inspiration 2021</span>
+                      <h1>CAMERA MADE JUST FOR YOU!</h1>
+                      <p>Trending Lens & Cameras New Collections</p>
+                      <a href="#"><button class="hero-bttn">SHOP NOW</button></a>
+                   </div>
+                  </div>
+                  <div class="right-hero">
+                    <div class="img-containerHero">
+                      <img src="images_/products/camm2.jpg" alt="" class="banner-1">
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="center-hero">
+                  <div class="left-hero">
+                    <div class="left-hero-div">
+                      <span>New Inspiration 2021</span>
+                      <h1>CAMERAS MADE JUST FOR YOU!</h1>
+                      <p>Trending Lens & Cameras New Collections</p>
+                      <a href="#"><button class="hero-bttn">SHOP NOW</button></a>
+                   </div>
+                  </div>
+                  <div class="right-hero">
+                    <div class="img-containerHero">
+                      <img src="images_/products/cam21.png" alt="" class="banner-2">
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- Bullet controls -->
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+          </div>
+          <!-- Arrow Controls Buttons ----->
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <svg>
+                <use xlink:href="images_/sprite.svg#icon-arrow-left2"></use>
+              </svg>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <svg>
+                <use xlink:href="images_/sprite.svg#icon-arrow-right2"></use>
+              </svg>
+            </button>
+          </div>
+                  
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-section" id="main">
+      <!--  Collections------- -->
+      <section class="section collection" id="collections">
+        <div class="container-section">
+          <div class="container-collection">
+            <div class="collection-box">
+              <div class="content-collection">
+                <div class="data-collection">
+                  <span>New Brand Arival</span>
+                  <h1>CAMERAS</h1>
+                  <a href="#">SHOP NOW</a>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="images_/products/Hasselblad.jpg" alt="#" class="image-collections-2" >
+              </div>
+            </div>
+            <div class="collection-box">
+              <div class="content-collection">
+                <div class="data-collection">
+                  <span>Available In Stock</span>
+                  <h1>CAMERAS</h1>
+                  <a href="#">SHOP NOW</a>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="images_/products/cam18.png" alt="#" class="image-collections-1" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Products--Latest------------ -->
+      <section class="section latest-products" id="latestProducts">
+        <div class="container">
+          <div class="container-heading">
+            <div class="section-heading active" data-id="latest-product">
+              <span class="dot"product-footer></span>
+              <!-- Primary Heading -------------->
+                <h1 class="main-heading">Latest Products</h1>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="glide" id="glide_2">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides latest-content">
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product-header">
+                      <img src="images_/products/lens/lens2.png" alt="">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Sony a7C with 28-60mm f4-5.6</h3>
+                      <div class="star-rating">
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                      </div>
+                      <div class="product-price">
+                        <h4>GHS1200.00</h4>
+                        <a href="#"><button type="button" class="product-bttn">
+                          Add To Cart
+                        </button></a>
+                      </div>
+                      <ul>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-eye"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-heart-o"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-loop2"></use>
+                          </svg>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product-header">
+                      <img src="images_/products/camm2.jpg" alt="">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Sony WH-CH510</h3>
+                      <div class="star-rating">
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                      </div>
+                      <div class="product-price">
+                        <h4>GHS1200.00</h4>
+                        <a href="#"><button type="button" class="product-bttn">
+                          Add To Cart
+                        </button></a>
+                      </div>
+                      <ul>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-eye"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-heart-o"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-loop2"></use>
+                          </svg>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product-header">
+                      <img src="images_/products/camm6.jpg" alt="">
+                    </div>
+                    <div class="product-footer">
+                      <h3>FUJIFILM X100V</h3>
+                      <div class="star-rating">
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                      </div>
+                      <div class="product-price">
+                        <h4>GHS1200.00</h4>
+                        <a href="#"><button type="button" class="product-bttn">
+                          Add To Cart
+                        </button></a>
+                      </div>
+                      <ul>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-eye"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-heart-o"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-loop2"></use>
+                          </svg>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product-header">
+                      <img src="images_/products/camm3.jpg" alt="">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Sony WH-CH560</h3>
+                      <div class="star-rating">
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                      </div>
+                      <div class="product-price">
+                        <h4>GHS1200.00</h4>
+                        <a href="#"><button type="button" class="product-bttn">
+                          Add To Cart
+                        </button></a>
+                      </div>
+                      <ul>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-eye"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-heart-o"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-loop2"></use>
+                          </svg>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide-slide">
+                  <div class="product">
+                    <div class="product-header">
+                      <img src="images_/products/camm5.jpg" alt="">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Sony a7C with 28-60mm f4-5.6</h3>
+                      <div class="star-rating">
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                      </div>
+                      <div class="product-price">
+                        <h4>GHS1200.00</h4>
+                        <a href="#"><button type="button" class="product-bttn">
+                          Add To Cart
+                        </button></a>
+                      </div>
+                      <ul>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-eye"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-heart-o"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-loop2"></use>
+                          </svg>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product-header">
+                      <img src="images_/products/cam3.png" alt="">
+                    </div>
+                    <div class="product-footer">
+                      <h3>FUJIFILM X100V</h3>
+                      <div class="star-rating">
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                      </div>
+                      <div class="product-price">
+                        <h4>GHS1200.00</h4>
+                        <a href="#"><button type="button" class="product-bttn">
+                          Add To Cart
+                        </button></a>
+                      </div>
+                      <ul>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-eye"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-heart-o"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-loop2"></use>
+                          </svg>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product-header">
+                      <img src="images_/products/lens/lens1.png" alt="">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Hasselblad X1D II 50c with Accessory Kit</h3>
+                      <div class="star-rating">
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                      </div>
+                      <div class="product-price">
+                        <h4>GHS1200.00</h4>
+                        <a href="#"><button type="button" class="product-bttn">
+                          Add To Cart
+                        </button></a>
+                      </div>
+                      <ul>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-eye"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-heart-o"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-loop2"></use>
+                          </svg>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product-header">
+                      <img src="images_/products/lens/lens3.png" alt="">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Nikon Coolpix A1000</h3>
+                      <div class="star-rating">
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                      </div>
+                      <div class="product-price">
+                        <h4>GHS1200.00</h4>
+                        <a href="#"><button type="button" class="product-bttn">
+                          Add To Cart
+                        </button></a>
+                      </div>
+                      <ul>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-eye"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-heart-o"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-loop2"></use>
+                          </svg>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="product">
+                    <div class="product-header">
+                      <img src="images_/products/cam21.png" alt="">
+                    </div>
+                    <div class="product-footer">
+                      <h3>Sony WH-CH578910</h3>
+                      <div class="star-rating">
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                        <svg>
+                          <use xlink:href="images_/sprite.svg#icon-star-full"></use>
+                        </svg>
+                      </div>
+                      <div class="product-price">
+                        <h4>GHS1200.00</h4>
+                        <a href="#"><button type="button" class="product-bttn">
+                          Add To Cart
+                        </button></a>
+                      </div>
+                      <ul>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-eye"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-heart-o"></use>
+                          </svg>
+                        </a>
+                        <a href="#">
+                          <svg>
+                            <use xlink:href="images_/sprite.svg#icon-loop2"></use>
+                          </svg>
+                        </a>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                <svg>
+                  <use xlink:href="images_/sprite.svg#icon-arrow-left2"></use>
+                </svg>
+              </button>
+              <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                <svg>
+                  <use xlink:href="images_/sprite.svg#icon-arrow-right2"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------- Category Section------------------- -->
+      <section class="category-section section" id="category">
+        <div class="container">
+          <div class="list-tab">
+            <div class="container-heading tabbs">
+              <div class="section-titles category-titles">
+                <div class="section-heading filter-buttons active" data-id="All Products">
+                  <span class="dot"></span>
+                  <h1 class="main-heading">All Products</h1>
+                </div>
+              </div>
+              <div class="section-titles ">
+                <div class="section-heading filter-buttons" data-id="Trending This Week">
+                  <span class="dot"></span>
+                  <h1 class="main-heading">Trending This Week</h1>
+                </div>
+              </div>
+              <div class="section-titles ">
+                <div class="section-heading filter-buttons" data-id="Special Deals">
+                  <span class="dot"></span>
+                  <h1 class="main-heading">Special Deals</h1>
+                </div>
+              </div> 
+              <div class="section-titles ">
+                <div class="section-heading filter-buttons" data-id="Featured Products">
+                  <span class="dot"></span>
+                  <h1 class="main-heading">Featured Products</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="category-container">
+            <div class="center-category">
+              <!-- Recieves API DATA -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Facility Section -->
+      <div class="facility-section section" id="facility">
+        <div class="container">
+          <div class="facility-container">
+            <div class="facility-box">
+              <div class="facility-imgContantainer">
+                <svg>
+                  <use xlink:href="./images_/sprite.svg#icon-airplane"></use>
+                </svg>
+              </div>
+              <p>FREE SHIPPING WORLD WIDE</p>
+            </div>
+
+            <div class="facility-box">
+              <div class="facility-imgContantainer">
+                <svg>
+                  <use xlink:href="./images_/sprite.svg#icon-credit-card-alt"></use>
+                </svg>
+              </div>
+              <p>100% MONEY BACK GUARANTEE</p>
+            </div>
+
+            <div class="facility-box">
+              <div class="facility-imgContantainer">
+                <svg>
+                  <use xlink:href="./images_/sprite.svg#icon-credit-card"></use>
+                </svg>
+              </div>
+              <p>MANY PAYMENT GATEWAYS</p>
+            </div>
+            <div class="facility-box">
+              <div class="facility-imgContantainer">
+                <svg>
+                  <use xlink:href="./images_/sprite.svg#icon-headphones"></use>
+                </svg>
+              </div>
+              <p>24/7 ONLINE CUSTOMER SUPORT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Testimonial Section -->
+      <section class="testimonial section" id="testimonial">
+        <div class="testimonial-conntainer">
+          <div class="glide" id="glide_3">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="testimonial-box">
+                    <div class="client-img">
+                      <img src="./images_/profile1.jpg" alt="Client image">
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptatum pariatur 
+                      beatae quod rem numquam enim error, explicabo eum ex porro distinctio, incidunt
+                       ea eius quidem ipsum natus vel ut.
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptatum 
+                      pariatur beatae quod rem numquam enim error, explicabo eum ex porro distinctio,
+                       incidunt ea eius quidem ipsum natus vel ut.Lorem ipsum dolor sit, amet consectet 
+                       adipisicing elit. Placeat voluptatum pariatur beatae quod rem numquam enim
+                    </p>
+                    <div class="client-info">
+                      <h1>Jack Millan</h1>
+                      <span>Work at Spark</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="testimonial-box">
+                    <div class="client-img">
+                      <img src="./images_/profile2.jpg" alt="Client image">
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptatum pariatur 
+                      beatae quod rem numquam enim error, explicabo eum ex porro distinctio, incidunt
+                       ea eius quidem ipsum natus vel ut.
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptatum 
+                      pariatur beatae quod rem numquam enim error, explicabo eum ex porro distinctio,
+                       incidunt ea eius quidem ipsum natus vel ut.Lorem ipsum dolor sit, amet consectet 
+                       adipisicing elit. Placeat voluptatum pariatur beatae quod rem numquam enim
+                    </p>
+                    <div class="client-info">
+                      <h1>Jack Millan</h1>
+                      <span>Work at Spark</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="testimonial-box">
+                    <div class="client-img">
+                      <img src="./images_/profile3.jpg" alt="Client image">
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptatum pariatur 
+                      beatae quod rem numquam enim error, explicabo eum ex porro distinctio, incidunt
+                       ea eius quidem ipsum natus vel ut.
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptatum 
+                      pariatur beatae quod rem numquam enim error, explicabo eum ex porro distinctio,
+                       incidunt ea eius quidem ipsum natus vel ut.Lorem ipsum dolor sit, amet consectet 
+                       adipisicing elit. Placeat voluptatum pariatur beatae quod rem numquam enim
+                    </p>
+                    <div class="client-info">
+                      <h1>Jack Millan</h1>
+                      <span>Work at Spark</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="testimonial-box">
+                    <div class="client-img">
+                      <img src="./images_/profile4.jpg" alt="Client image">
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptatum pariatur 
+                      beatae quod rem numquam enim error, explicabo eum ex porro distinctio, incidunt
+                       ea eius quidem ipsum natus vel ut.
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptatum 
+                      pariatur beatae quod rem numquam enim error, explicabo eum ex porro distinctio,
+                       incidunt ea eius quidem ipsum natus vel ut.Lorem ipsum dolor sit, amet consectet 
+                       adipisicing elit. Placeat voluptatum pariatur beatae quod rem numquam enim
+                    </p>
+                    <div class="client-info">
+                      <h1>Jack Millan</h1>
+                      <span>Work at Spark</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- Bullet controls -->
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+              <button class="glide__bullet" data-glide-dir="=0"></button>
+              <button class="glide__bullet" data-glide-dir="=1"></button>
+              <button class="glide__bullet" data-glide-dir="=2"></button>
+              <button class="glide__bullet" data-glide-dir="=3"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- News Section -->
+      <section class="news section" id="news">
+        <div class="container">
+          <div class="title-container"></div>
+          <div class="section-titles">
+            <div class="section-heading active">
+              <span class="dot"></span>
+              <h1 class="main-heading">Phone News</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-container">
+          <div class="glide" id="glide_4">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="news-card">
+                    <div class="card-header">
+                      <img src="./images_/blog1.jpg" alt="">
+                    </div>
+
+                   <div class="news-footer">
+                     <h3>Stylying White T-shirt After A Cool Day</h3>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                       Nihil, nesciunt? Aliquam quod autem corrupti officia suscipit nam hic! 
+                       Dolorum corporis ullam corrupti ipsum nihil neque quia mollitia 
+                       vitae dolor consectetur?</p>
+                       <a href="#">Continue Reading...</a>
+                   </div> 
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="news-card">
+                    <div class="card-header">
+                      <img src="./images_/blog2.jpg" alt="">
+                    </div>
+
+                   <div class="news-footer">
+                     <h3>Stylying White T-shirt After A Cool Day</h3>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                       Nihil, nesciunt? Aliquam quod autem corrupti officia suscipit nam hic! 
+                       Dolorum corporis ullam corrupti ipsum nihil neque quia mollitia 
+                       vitae dolor consectetur?</p>
+                       <a href="#">Continue Reading...</a>
+                   </div> 
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="news-card">
+                    <div class="card-header">
+                      <img src="./images_/blog3.jpg" alt="">
+                    </div>
+
+                   <div class="news-footer">
+                     <h3>Stylying White T-shirt After A Cool Day</h3>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                       Nihil, nesciunt? Aliquam quod autem corrupti officia suscipit nam hic! 
+                       Dolorum corporis ullam corrupti ipsum nihil neque quia mollitia 
+                       vitae dolor consectetur?</p>
+                       <a href="#">Continue Reading...</a>
+                   </div> 
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="news-card">
+                    <div class="card-header">
+                      <img src="./images_/blog4.jpg" alt="">
+                    </div>
+
+                   <div class="news-footer">
+                     <h3>Stylying White T-shirt After A Cool Day</h3>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                       Nihil, nesciunt? Aliquam quod autem corrupti officia suscipit nam hic! 
+                       Dolorum corporis ullam corrupti ipsum nihil neque quia mollitia 
+                       vitae dolor consectetur?</p>
+                       <a href="#">Continue Reading...</a>
+                   </div> 
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscribe To Our Newsletter -->
+      <section class="newsletter section" id="contact">
+        <div class="container">
+          <div class="newsletter-content">
+            <div class="newsletter-collecton">
+              <h1>Subscribe To Our Newsletter</h1>
+              <p>Lorem ipsum dolor sit amet nulla nihil, quae facere? Ex dolorem.</p>
+            </div>
+            <form action="#">
+              <input type="email" class="newsletter-input" placeholder="example@gmail.com">
+              <a href="#" class="newsletter-subscribe">Subscribe</a>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!------ Footer Section----------- -->
+    <footer id="main-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top-box">
+            <h3>EXTRA</h3>
+            <a href="#">Brands</a>
+            <a href="#">Partners</a>
+            <a href="#">Gift Certificate</a>
+            <a href="#">Affiliate</a>
+            <a href="#">Site Map</a>
+          </div>
+          <div class="footer-top-box">
+            <h3>INFORMATION</h3>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Condition</a>
+            <a href="#">Contact</a>
+            <a href="#">Site Map</a>
+          </div>
+          <div class="footer-top-box">
+            <h3>EXTRA</h3>
+            <a href="#">MY ACCOUNT</a>
+            <a href="#">Order history</a>
+            <a href="#">Wish lists</a>
+            <a href="#">Newsletter</a>
+            <a href="#">Refunds</a>
+            <a href="#">Returns</a>
+          </div>
+          <div class="footer-top-box">
+            <h3>CONTACT US</h3>
+            <div class="contact-info">
+              <span>
+                <svg>
+                  <use xlink:href="./images_/sprite.svg#icon-location"></use>
+                </svg>
+                53 Cocacola Street, Lorem ipsum dolor 1478, Ghana
+              </span>
+            </div>
+            <div class="contact-info">
+              <span>
+                <svg>
+                  <use xlink:href="./images_/sprite.svg#icon-envelop"></use>
+                </svg>
+                company@gmail.com
+              </span>
+            </div>
+            <div class="contact-info">
+              <span>
+                <svg>
+                  <use xlink:href="./images_/sprite.svg#icon-phone"></use>
+                </svg>
+                +233-5749-453-675
+              </span>
+            </div>
+            <div class="contact-info">
+              <span>
+                <svg>
+                  <use xlink:href="./images_/sprite.svg#icon-paperplane"></use>
+                </svg>
+                Tema Street, Ghana
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Pop Up -->
+    <div class="pop-up hide-pop">
+      <div class="pop-up-content">
+        <div class="pop-up-close">
+          <svg>
+            <use xlink:href="images_/sprite.svg#icon-cross"></use>
+          </svg>
+        </div>
+
+        <div class="pop-up-left">
+          <div class="popup-img_container">
+            <img src="./images_/popup.jpg" alt="" class="popUp-img">
+          </div>
+        </div>
+
+        <div class="pop-up-right">
+          <div class="right-content">
+            <h1>Get Discount <span>35%</span> Off</h1>
+            <p>Sign up to our newsletter and get the 25% off your next purchase. No spam, we promise!</p>
+            <form action="#" class="popup-form">
+              <input type="email" class="popup__input" placeholder="Enter email...">
+              <a href="#">Subscribe</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Go TO Top -->
+    <a href="#header" class="go-to-top scroll__link">
+      <svg>
+        <use xlink:href="images_/sprite.svg#icon-arrow-up"></use>
+      </svg>
+    </a>
+   
+   <!-- Scripts------- -->
+   <!-- Glidejs Script----------- -->
+   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+   <!-- Animation On Scroll js--------- -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <!-- Local js -->
+   <script src="main_js/index.js"></script>
+   <script src="main_js/slider.js"></script>
+   <script src="main_js/product.js"></script>
+  </body>
+</html>
